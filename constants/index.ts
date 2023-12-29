@@ -1,20 +1,3 @@
-export const Socials = [
-  {
-    name: "Discord",
-    src: "/instagram.svg",
-  },
-  {
-    name: "Facebook",
-    src: "/facebook.svg",
-  },
-  {
-    name: "Instagram",
-    src: "/discord.svg",
-  },
-];
-
-
-
 export const Frontend_skill = [
   {
     skill_name: "Html 5",
@@ -136,7 +119,31 @@ export const Backend_skill = [
 ]
 
 export const Proyectos = [
-
+  {
+    project_name: "Calculadora",
+    Image: '/calculadora.jpg',
+    description: 'Calculadora en react',
+  },
+  {
+    project_name: "Calculadora",
+    Image: '/calculadora.jpg',
+    description: 'Calculadora en react',
+  },
+  {
+    project_name: "Calculadora",
+    Image: '/calculadora.jpg',
+    description: 'Calculadora en react',
+  },
+  {
+    project_name: "Calculadora",
+    Image: '/calculadora.jpg',
+    description: 'Calculadora en react',
+  },
+  {
+    project_name: "Calculadora",
+    Image: '/calculadora.jpg',
+    description: 'Calculadora en react',
+  }
 ]
 
 export const SimpleProjects = [
@@ -144,8 +151,5 @@ export const SimpleProjects = [
 ]
 
 export const cloneProjects = [
-  {
-    project_name: "Nada",
-    Image: '/vite.png'
-  }
+
 ]
