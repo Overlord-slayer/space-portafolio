@@ -10,7 +10,7 @@ const HeroContent = () => {
   const handleDownloadCV = () => {
     // Lógica para descargar el CV (por ejemplo, redirigir a un archivo PDF)
     // Puedes proporcionar el enlace directo a tu CV o implementar lógica más avanzada aquí.
-    const cvUrl = '/cv.pdf'; // Reemplaza con la ruta correcta a tu CV
+    const cvUrl = '/CV.pdf' // Reemplaza con la ruta correcta a tu CV
     const link = document.createElement('a');
     link.href = cvUrl;
     link.download = 'cv_samuel.pdf'; // Puedes cambiar el nombre del archivo si lo deseas
