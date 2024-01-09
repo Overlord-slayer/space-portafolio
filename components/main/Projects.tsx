@@ -9,13 +9,15 @@ const Projects = () => {
       <h1 className='text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20'>
         Mis proyectos
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 px-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 px-10 inset z-[20]">
         {Proyectos.map((proyecto, index) => (
           <ProjectCard
             key={index}
             src={proyecto.Image}
             title={proyecto.project_name}
             description={proyecto.description}
+            enlace={proyecto.enlace}
+            repositorio={proyecto.repositorio}
           />
         ))}
       </div>

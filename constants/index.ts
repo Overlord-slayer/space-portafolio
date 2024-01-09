@@ -35,18 +35,18 @@ export const Frontend_skill = [
     width: 80,
     height: 80,
   },
-  {
-    skill_name: "Redux",
-    Image: "/redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    Image: "/reactquery.png",
-    width: 80,
-    height: 80,
-  },
+  // {
+  //   skill_name: "Redux",
+  //   Image: "/redux.png",
+  //   width: 80,
+  //   height: 80,
+  // },
+  // {
+  //   skill_name: "React Query",
+  //   Image: "/reactquery.png",
+  //   width: 80,
+  //   height: 80,
+  // },
   {
     skill_name: "Type Script",
     Image: "/ts.png",
@@ -71,12 +71,12 @@ export const Frontend_skill = [
     width: 80,
     height: 80,
   },
-  {
-    skill_name: "Stripe Payment",
-    Image: "/stripe.webp",
-    width: 80,
-    height: 80,
-  },
+  // {
+  //   skill_name: "Stripe Payment",
+  //   Image: "/stripe.webp",
+  //   width: 80,
+  //   height: 80,
+  // },
 ];
 
 export const Backend_skill = [
@@ -98,12 +98,12 @@ export const Backend_skill = [
     width: 40,
     height: 40,
   },
-  {
-    skill_name: "Fire base",
-    Image: "/Firebase.png",
-    width: 55,
-    height: 55,
-  },
+  // {
+  //   skill_name: "Fire base",
+  //   Image: "/Firebase.png",
+  //   width: 55,
+  //   height: 55,
+  // },
   {
     skill_name: "Postges SQL",
     Image: "/postger.png",
@@ -121,29 +121,33 @@ export const Backend_skill = [
 export const Proyectos = [
   {
     project_name: "Calculadora",
-    Image: '/calculadora.jpg',
-    description: 'Calculadora en react',
+    Image: '/proyectos/calculadora.jpg',
+    description: 'Mini proyeto de calculadora hecha en react en el entorno de desarrollo Vite',
+    enlace: 'https://calcrct.netlify.app/',
+    repositorio: 'https://github.com/Overlord-slayer/calcreact'
   },
   {
-    project_name: "Calculadora",
-    Image: '/calculadora.jpg',
-    description: 'Calculadora en react',
+    project_name: "Cohetes Marca Acme",
+    Image: '/proyectos/tailwindcss.jpg',
+    description: 'Proyecto de aprendizaje sobre TailwindCSS',
+    enlace: 'https://cohetes-acme.onrender.com',
+    repositorio: 'https://github.com/Overlord-slayer/tailwincss'
   },
   {
-    project_name: "Calculadora",
-    Image: '/calculadora.jpg',
-    description: 'Calculadora en react',
+    project_name: "Clone  de Free Code Camp",
+    Image: '/proyectos/freecodecampreply.jpg',
+    description: 'Clone de Free Code Camp. Desarrollado en React y material UI.',
+    enlace: 'https://freecodecampreply.s3.us-east-2.amazonaws.com/dist/client/index.html',
+    repositorio: 'https://github.com/Overlord-slayer/freecodecampReply'
   },
   {
-    project_name: "Calculadora",
-    Image: '/calculadora.jpg',
-    description: 'Calculadora en react',
+    project_name: "Panel de administración",
+    Image: '/proyectos/adminDashboard.jpg',
+    description: 'Proyecto en Next js, utilizando mongoDB y las funcionaliadades de server actions de Nextjs. username --> 123456' +
+    ' (credenciales de prueba).',
+    enlace: 'https://admin-dashboard-umber-ten-35.vercel.app',
+    repositorio: 'https://github.com/Overlord-slayer/adminDashboard.git'
   },
-  {
-    project_name: "Calculadora",
-    Image: '/calculadora.jpg',
-    description: 'Calculadora en react',
-  }
 ]
 
 export const SimpleProjects = [

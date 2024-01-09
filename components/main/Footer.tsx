@@ -6,8 +6,8 @@ import {
 
 export default function Footer() {
   return (
-    <section id='contacto' className='w-full h-full bg-transparent'>
-      Hola
+    <section id='contacto' className='w-full h-full bg-transparent text-white'>
+      
     </section>
     
   )

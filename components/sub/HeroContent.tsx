@@ -1,16 +1,16 @@
 "use client"
 
-import React from 'react';
-import { motion } from 'framer-motion';
-import { SparklesIcon } from '@heroicons/react/24/solid';
-import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/utils/motion';
-import Image from 'next/image';
+import React from 'react'
+import { motion } from 'framer-motion'
+import { SparklesIcon } from '@heroicons/react/24/solid'
+import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/utils/motion'
+import Image from 'next/image'
 
 const HeroContent = () => {
   const handleDownloadCV = () => {
     // Lógica para descargar el CV (por ejemplo, redirigir a un archivo PDF)
     // Puedes proporcionar el enlace directo a tu CV o implementar lógica más avanzada aquí.
-    const cvUrl = '/CV.pdf'; // Reemplaza con la ruta correcta a tu CV
+    const cvUrl = '/cv.pdf'; // Reemplaza con la ruta correcta a tu CV
     const link = document.createElement('a');
     link.href = cvUrl;
     link.download = 'cv_samuel.pdf'; // Puedes cambiar el nombre del archivo si lo deseas
@@ -57,7 +57,7 @@ const HeroContent = () => {
         <motion.a
           onClick={handleDownloadCV}
           variants={slideInFromLeft(1)}
-          className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'
+          className='py-2 px-4 md:px-6 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'
         >
           Descargar CV
         </motion.a>
