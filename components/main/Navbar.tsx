@@ -75,11 +75,13 @@ const Navbar: React.FC = () => {
         <div className='flex flex-row gap-5 text-white'>
           <Link
             href='https://github.com/Overlord-slayer'
+            target='_blank'
           >
             <IoLogoGithub className='size-10'/>
           </Link>
           <Link
             href='https://www.linkedin.com/in/samuel-argueta-1b0480200/'
+            target='_blank'
           >
             <FaLinkedin className='size-10'/>
           </Link>
@@ -100,10 +102,10 @@ const Navbar: React.FC = () => {
 
         {/* Menú desplegable para dispositivos móviles */}
         {state.isMobileMenuOpen && (
-          <div className='md:hidden absolute top-[65px] right-0 left-0 bg-[#0300145e] border-t border-[#7042f861]'>
-            <a href="#sobre-mi" className='block py-2 text-white text-center text-sm' onClick={closeMobileMenu}>Sobre mí</a>
-            <a href="#skills" className='block py-2 text-white text-center text-sm' onClick={closeMobileMenu}>Habilidades</a>
-            <a href="#proyectos" className='block py-2 text-white text-center text-sm' onClick={closeMobileMenu}>Proyectos</a>
+          <div className='md:hidden absolute top-[65px] right-0 bg-gray-200 border-t border-[#7042f861] w-[200px] rounded-md'>
+            <a href="#sobre-mi" className='block py-2 text-black text-center text-sm' onClick={closeMobileMenu}>Sobre mí</a>
+            <a href="#skills" className='block py-2 text-black text-center text-sm' onClick={closeMobileMenu}>Habilidades</a>
+            <a href="#proyectos" className='block py-2 text-black text-center text-sm' onClick={closeMobileMenu}>Proyectos</a>
           </div>
         )}
 

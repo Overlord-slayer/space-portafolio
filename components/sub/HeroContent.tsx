@@ -25,14 +25,14 @@ const HeroContent = () => {
       animate='visible'
       className='flex flex-col md:flex-row items-center justify-center px-5 md:px-20 mt-10 md:mt-40 w-full z-[20]'
     >
-      <div className='h-full w-full flex flex-col gap-5 justify-center m-auto text-center md:text-start'>
+      <div className='h-full w-full flex flex-col gap-2 justify-center m-auto text-center md:text-start'>
         <motion.div
           variants={slideInFromTop}
           className='Welcome-box py-2 md:py-[15px] px-2 md:px-[7px] border border-[#7042f88b] opacity-[0.9]'
         >
           <SparklesIcon className='text-[#b49bff] mr-2 md:mr-[10px] h-5 w-5'/>
           <h1 className='Welcome-text text-xs md:text-[13px]'>
-            Desarrollador Web FullStack Jr.
+            Desarrollador Web Jr.
           </h1>
         </motion.div>
 
@@ -41,9 +41,9 @@ const HeroContent = () => {
           className='flex flex-col gap-3 md:gap-6 mt-6 text-xl md:text-6xl font-bold text-white max-w-[600px] w-auto h-auto'
         >
           <span>
-            Proporcionando
-            <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> la mejor </span>
-            experiencia en proyectos
+            Construyendo
+            <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> mundos digitales </span>
+            a través de la programación
           </span>
         </motion.div>
 
@@ -51,13 +51,13 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className='text-base md:text-lg text-gray-400 my-3 md:my-5 max-w-[600px]'
         >
-          Desarrollo Web FullStack. Hecha un vistazo a mis proyectos.
+          Desarrollo Web. Hecha un vistazo a mis proyectos.
         </motion.p>
 
         <motion.a
           onClick={handleDownloadCV}
           variants={slideInFromLeft(1)}
-          className='py-2 px-4 md:px-6 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'
+          className='py-2 px-4 md:px-6 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] md:mt-[-20px]'
         >
           Descargar CV
         </motion.a>
@@ -70,8 +70,8 @@ const HeroContent = () => {
         <Image
           src="/mainIconsdark.svg"
           alt="iconos de trabajo"
-          height={650}
-          width={650}
+          height={600}
+          width={600}
           className='object-cover'
         />
       </motion.div>

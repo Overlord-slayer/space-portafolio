@@ -20,7 +20,7 @@ export default function About() {
   }, [inView])
 
   return (
-    <section id="sobre-mi" ref={ref} className='w-full h-full text-white md:flex-row md:px-20 mb-10'>
+    <section id="sobre-mi" ref={ref} className='w-full h-full mt-[-160px] text-white md:flex-row md:px-20 mb-10 gap-3'>
       <motion.div
         initial='visible'
         animate='visible'
@@ -36,13 +36,13 @@ export default function About() {
             variants={slideInFromBottom(0.8)}
             className='flex flex-col text-white justify-center items-center'>
             <Image
-              className='border-4 border-black dark:border-slate-500 transform hover:scale-105 transition-transform duration-300 drop-shadow-xl shadow-black rounded-full mx-auto mt-8'
+              className='border-4 border-black dark:border-slate-500 transform hover:scale-105 transition-transform duration-300 drop-shadow-xl shadow-black rounded-full mx-auto mt-[-30px]'
               src='/images/foto.jpg'
               alt='foto'
               height={200}
               width={200}
             ></Image>
-            <h1 className='text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-white'>
+            <h1 className='text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-white mt-14'>
               <TypeAnimation
                 sequence={[
                   'Samuel Argueta, autodidacta',
@@ -60,23 +60,24 @@ export default function About() {
                 repeat={Infinity}
               />
             </h1>
-          
-            <h1 className='text-2xl md:text-4xl lg:text-5xl xl:text-6xl'>
-              <span className='font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-2 md:py-4 xl:py-6'>
-                Desarrollador web Junior
-              </span>
-            </h1>
-            <p className='text-sm md:text-base xl:text-lg text-center mt-4'>
-              Actualmente estudiante, cursando 4to año de la carrera Ciencias de la Computación.   
-              <br />
-              Posee interés por la inteligencia artificial, así como por la ciberseguridad.
-            </p>
+            <div className='gap-3 mt-[50px]'>
+              <h1 className='text-2xl md:text-4xl lg:text-5xl xl:text-6xl'>
+                <span className='font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-2 md:py-4 xl:py-6'>
+                  Desarrollador web Junior
+                </span>
+              </h1>
+              <p className='text-sm md:text-base xl:text-lg text-center mt-4 gap-3'>
+                Actualmente estudiante, cursando 4to año de la carrera Ciencias de la Computación.   
+                <br />
+                Posee interés por la inteligencia artificial, así como por la ciberseguridad.
+              </p>
+            </div>
             
           </motion.div>
         </motion.div>
         )}
 
       </motion.div>
-           </section>
+    </section>
   )
 }

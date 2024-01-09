@@ -1,9 +1,11 @@
-import { Backend_skill, Frontend_skill } from '@/constants'
+import { Backend_skill, Frontend_skill, secuenciaSkills } from '@/constants'
 import React from 'react'
 import SkillDataProvider from '../sub/SkillDataProvider'
 import SkillText from '../sub/SkillText'
+import TextoDinamico from '../sub/TextoDinamico'
 
 const Skills = () => {
+
   return (
     <section 
       id='skills'
@@ -51,6 +53,8 @@ const Skills = () => {
           </video>
         </div>
       </div>
+      <TextoDinamico sequence={secuenciaSkills}/>
+      
     </section>
   )
 }

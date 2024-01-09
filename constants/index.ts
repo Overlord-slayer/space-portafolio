@@ -157,3 +157,5 @@ export const SimpleProjects = [
 export const cloneProjects = [
 
 ]
+
+export const secuenciaSkills = ['React', 1000, 'MongoDB', 1000, 'Supabase', 1000, 'Next.js', 1000, 'Node.js', 1000, 'Express.js', 1000, 'MongoDB', 1000]
