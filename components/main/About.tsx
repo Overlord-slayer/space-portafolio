@@ -41,7 +41,10 @@ export default function About() {
               alt='foto'
               height={200}
               width={200}
-            ></Image>
+              layout="fixed"
+              objectFit="cover"
+              objectPosition="center center"
+            />
             <h1 className='text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-white mt-14'>
               <TypeAnimation
                 sequence={[
